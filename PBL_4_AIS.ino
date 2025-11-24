@@ -3,11 +3,11 @@
 // ====================================================================================
 
 // ID unik untuk template Blynk yang Anda buat. Ganti dengan ID template Anda.
-#define BLYNK_TEMPLATE_ID "TMPL634idmXKG"
+#define BLYNK_TEMPLATE_ID "BLYNK_TEMPLATE_ID"
 // Nama template (judul proyek) di Blynk. Ganti dengan nama template Anda.
-#define BLYNK_TEMPLATE_NAME "Smart Farming"
+#define BLYNK_TEMPLATE_NAME "BLYNK_TEMPLATE_NAME"
 // Token autentikasi yang diberikan oleh Blynk untuk menghubungkan perangkat ini. Ganti dengan token Anda.
-#define BLYNK_AUTH_TOKEN "-NmSuP-cikIhTHBaFylhw3KisFvUPCV7"
+#define BLYNK_AUTH_TOKEN "BLYNK_AUTH_TOKEN"
 
 // Memuat library penting untuk koneksi WiFi dan Blynk pada ESP32
 #include <WiFi.h>
@@ -36,8 +36,8 @@ DHT dht(DHTPIN, DHTTYPE);
 BlynkTimer timer; // Membuat objek timer dari BlynkTimer
 
 // Kredensial WiFi (Ganti dengan data Anda!)
-char ssid[] = "POCO F3"; 
-char pass[] = "poco1234"; 
+char ssid[] = "ssid"; 
+char pass[] = "paa"; 
 
 // --- DEFINISI VIRTUAL PIN BLYNK ---
 #define VP_RELAY V0       // V0: Kontrol Pompa (Tombol/LED)
