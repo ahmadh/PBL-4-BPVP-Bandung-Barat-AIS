@@ -59,7 +59,7 @@ Lakukan langkah-langkah berikut di platform **Blynk** (menggunakan Blynk IoT ata
 
 ### 4. Konfigurasi Kode
 
-Ubah nilai-nilai berikut di bagian awal file `smart_irrigation_v2.cpp`:
+Ubah nilai-nilai berikut di bagian awal file `PBL_4_AIS.ino`:
 
 1.  **Kredensial Blynk**:
     ```cpp
